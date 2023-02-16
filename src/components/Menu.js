@@ -21,7 +21,7 @@ const Menu = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="w-full min-h-[100vh]  bg-red-500">
+    <div className="w-full min-h-[100vh] ">
       {/* ========navbar started =========*/}
       <div className='w-full sm:h-full border-b sticky top-0 border-black flex justify-between lg:hidden'>
        <Navbar onClick={setOpen} />
@@ -66,7 +66,7 @@ const Menu = () => {
       <div className='md:w-[350px] border-r-2 grow-0 shrink-0'>
         <Statistics />
       </div>
-      <div className='grow shrink  bg-white'>
+      <div className='md:w-[50%] grow-0 bg-white'>
         <Orders_and_profit />
       </div>
       </div>

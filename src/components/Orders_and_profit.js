@@ -9,8 +9,8 @@ const Orders_and_profit = () => {
         <div>
             <section >
                 <div className=' pt-8 px-4  sm:pt-6 md:p-2'>
-                    <div>
-                        <div className='text-3xl font-semibold '> Orders and Profits</div>
+                    <div className='max-h-[400px] max-w-[800px]'>
+                        <div className='md:text-3xl font-semibold '> Orders and Profits</div>
                     <div style={{display:"grid", gridTemplateColumns:"3fr 1fr 1fr 1fr",gap:"10px", alignItems:"center"}} >
                         <div className='p-2 '>
                             <img src={carimg} alt="" />
@@ -34,7 +34,7 @@ const Orders_and_profit = () => {
                     </div>
                     </div>
                     
-                    <div className='pt-4'>
+                    <div className='pt-4 max-h-[400px] max-w-[800px]'>
                         <div className='text-3xl  font-semibold p-2'>Profit dynamics</div>
                         <div className='flex px-2'>
                             <div className='px-2 font-semibold'>Time: 11:35am</div>
@@ -50,7 +50,7 @@ const Orders_and_profit = () => {
                     <div className='text-3xl p-2'>
                         <div className='text-3xl  font-semibold '>Order list</div>
                     </div>
-                    <div style={{}}>
+                    <div className='max-h-[400px] max-w-[800px]'>
                         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr ", padding: "10px 6px", borderBottom:"1px solid #F2F2F2" }}>
                             <div>#</div>
                             <div>Number</div>
