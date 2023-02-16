@@ -15,14 +15,19 @@ import {TbReport} from 'react-icons/tb'
 
 
 const Menu = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  const setOpen = () => {
+    setIsOpen(!isOpen);
+  };
   return (
-    <div className="w-full min-h-[100vh] bg-red-500">
+    <div className="w-full min-h-[100vh]  bg-red-500">
       {/* ========navbar started =========*/}
-      <div className='w-full h-[66px] lg:hidden'>
-       <Navbar />
+      <div className='w-full sm:h-full border-b sticky top-0 border-black flex justify-between lg:hidden'>
+       <Navbar onClick={setOpen} />
       </div>
-      <div className='md:flex'>
-      <div className='md:w-[250px] min-h-[100vh] py-4 px-2 bg-[#ffffff] border-r-2 hidden lg:block grow-0 shrink-0'>
+      <div className='md:flex' >
+      <div className={`${isOpen ? ' max-lg:fixed' : "max-lg:hidden "} w-[250px] min-h-[100vh] py-4 px-2 bg-[#ffffff] border-r-2  grow-0 shrink-0 `}>
         <div className='logo p-2 text-[#07A64B] flex align-middle'>
           <span className='text-lg font-bold'>Zuber taxi</span>
         </div>

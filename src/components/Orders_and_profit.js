@@ -8,34 +8,34 @@ const Orders_and_profit = () => {
     return (
         <div>
             <section >
-                <div className='p-4'>
+                <div className=' pt-8 px-4  sm:pt-6 md:p-2'>
                     <div>
-                        <div className='text-3xl font-semibold p-2'> Orders and Profits</div>
+                        <div className='text-3xl font-semibold '> Orders and Profits</div>
                     <div style={{display:"grid", gridTemplateColumns:"3fr 1fr 1fr 1fr",gap:"10px", alignItems:"center"}} >
                         <div className='p-2 '>
                             <img src={carimg} alt="" />
                         </div>
                         <div className='p-2'>
                             <AiOutlineDash size={20} />
-                            <h1 className='font-semibold'>Car on line</h1>
-                            <h1 className='text-xl font-bold'>35</h1>
+                            <h1 className=' md:font-semibold'>Car on line</h1>
+                            <h1 className='md:text-xl font-bold'>35</h1>
                         </div>
                         <div className='p-2'>
                             <IoIosSend size={20} />
-                            <h1 className='font-semibold'>On order</h1>
-                            <h1 className='text-xl font-bold'>23</h1>
+                            <h1 className='md:font-semibold'>On order</h1>
+                            <h1 className='md:text-xl font-bold'>23</h1>
                         </div>
                         <div className='p-2'>
                             <RiTimerFill size={20} />
-                            <h1 className='font-semibold'>Awaiting</h1>
-                            <h1 className='text-xl font-bold'>12</h1>
+                            <h1 className='md:font-semibold'>Awaiting</h1>
+                            <h1 className='md:text-xl font-bold'>12</h1>
                         </div>
 
                     </div>
                     </div>
                     
-                    <div >
-                        <div className='text-3xl p-2'>Profit dynamics</div>
+                    <div className='pt-4'>
+                        <div className='text-3xl  font-semibold p-2'>Profit dynamics</div>
                         <div className='flex px-2'>
                             <div className='px-2 font-semibold'>Time: 11:35am</div>
                             <div className='px-2 font-semibold'>Income: $2,55,000</div>
@@ -48,7 +48,7 @@ const Orders_and_profit = () => {
                     </div>
 
                     <div className='text-3xl p-2'>
-                        <div>Order list</div>
+                        <div className='text-3xl  font-semibold '>Order list</div>
                     </div>
                     <div style={{}}>
                         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr ", padding: "10px 6px", borderBottom:"1px solid #F2F2F2" }}>

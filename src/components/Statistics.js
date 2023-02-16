@@ -10,7 +10,7 @@ const Statistics = () => {
             <section>
                 <div style={{background:"#F8F7F1", padding:'30px'}} className='min-h-[100vh]'>
                     <div style={{padding:"15px 8px"}}  >
-                        <h1 className='text-3xl font-semibold py-3'>Statistics</h1>
+                        <h1 className='text-3xl font-semibold'>Statistics</h1>
                         <h3 style={{fontWeight:"600"}}>Today: 06 jun 2023</h3>
                     </div>
                     <div style={{display:"flex", justifyContent:"center", padding:"5px 20px", backgroundColor:"#ffffff"}}>
