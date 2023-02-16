@@ -63,7 +63,7 @@ const Menu = () => {
       
       {/* ========navbar end =========*/}
 
-      <div className='md:w-[350px] border-r-2 grow-0 shrink-0'>
+      <div className='md:w-[350px] border-r-2'>
         <Statistics />
       </div>
       <div className='md:w-[50%] grow-0 bg-white'>
